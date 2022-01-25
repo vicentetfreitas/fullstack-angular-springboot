@@ -8,17 +8,17 @@ class Customer {
     this._lastName = theLast;
   }
 
-  public get firstName(): string {
+  get firstName(): string {
     return this._firstName;
   }
-  public set firstName(value: string) {
+  set firstName(value: string) {
     this._firstName = value;
   }
 
-  public get lastName() {
+  get lastName() {
     return this._lastName;
   }
-  public set lastName(value: string) {
+  set lastName(value: string) {
     this._lastName = value;
   }
 }
@@ -28,3 +28,7 @@ let myCustomer = new Customer("Martin", "Dixon");
 
 console.log(myCustomer.firstName);
 console.log(myCustomer.lastName);
+
+// Do not generate a .js file if here is a compilation error
+//  tsc --noEmitOnError NameFile.ts
+//  tsc --target ES5 --noEmitOnError NameFile.ts
