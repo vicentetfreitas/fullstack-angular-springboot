@@ -6,11 +6,11 @@ export class Circle extends Shape {
     super(theX, theY);
   }
 
-  public get radius(): number {
+  get radius(): number {
     return this._radius;
   }
 
-  public set radius(value: number) {
+  set radius(value: number) {
     this._radius = value;
   }
 
