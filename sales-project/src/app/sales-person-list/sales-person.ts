@@ -3,6 +3,6 @@ export class SalesPerson {
     public firstName: string,
     public lastName: string,
     public email: string,
-    public salesValues: number
+    public salesVolume: number
   ) {}
 }
