@@ -2,8 +2,9 @@ import { Component, OnInit } from '@angular/core';
 import { SalesPerson } from 'src/app/sales-person-list/sales-person';
 
 @Component({
-  selector: 'app-sales-person-list',
-  templateUrl: './sales-person-list.component.html',
+  // selector: 'app-sales-person-list'
+  selector:'app-sales-person-list',
+  templateUrl: './sales-person-list-bootstrap.component.html',
   styleUrls: ['./sales-person-list.component.css'],
 })
 export class SalesPersonListComponent implements OnInit {
